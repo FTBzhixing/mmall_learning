@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.10.102:3306/gmall_train
+    username: root
+    password: 111111
+
+#配置逻辑删除，MP默认就是0，1，这里显示得将其配出来了
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+server:
+  port: 8088
